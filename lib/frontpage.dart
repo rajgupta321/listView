@@ -12,7 +12,7 @@ class Frontpage extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SplashScreen(), // Start with the SplashScreen
       routes: {
-        '/home': (context) =>LoginPage (), // Define routes for your screens
+        '/home': (context) => LoginPage(), // Define routes for your screens
       },
     );
   }
@@ -40,24 +40,18 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            // Add the image here
+            // Add the image here.
             CircleAvatar(
               backgroundImage: AssetImage('assets/images/monkey-man.jpg'),
               backgroundColor: Colors.yellowAccent,
               radius: 150,
             ),
             SizedBox(height: 20.0),
-            Text(
-                ' your childhood photo',
-                style:TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.bold
-                )
-            ),
+            Text(' your childhood photo',
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
           ],
         ),
       ),
     );
   }
 }
-
