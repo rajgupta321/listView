@@ -1,0 +1,232 @@
+body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Image.asset(
+                'assets/images/Bhavesh.jpg',
+                fit:BoxFit.cover ,height: 50, // Set the desired height
+              ),
+              SizedBox(height: 20.0),
+              Text(
+                  'Bhavesh Gupta',
+                  style:TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold
+                  )
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> HomePage()));
+                  // Add login logic here
+                },
+                child: Text('Check deatil')
+              ),
+              Image.asset(
+                'assets/images/sketch1642078613345 (2).png',
+                fit:BoxFit.cover ,height: 50, // Set the desired height
+              ),
+              Text(
+                  'Raj Gupta',
+                  style:TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold
+                  )
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> HomePage()));
+                  // Add login logic here
+                },
+                child: Text('Check deatil'),
+              ),
+              Image.asset(
+                'assets/images/monkey.png',
+                fit:BoxFit.cover ,height: 50, // Set the desired height
+              ),
+              Text(
+                  'Nikhil Gupta',
+                  style:TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold
+                  )
+              ),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=> HomePage()));
+                    // Add login logic here
+                  },
+                  child: Text('Check deatil')
+              ),
+              Image.asset(
+                'assets/images/Ujjwal.jpg',
+                fit:BoxFit.cover ,height: 50, // Set the desired height
+              ),
+              Text(
+                  'Ujjwal Gupta',
+                  style:TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold
+                  )
+              ),
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=> HomePage()));
+                    // Add login logic here
+                  },
+                  child: Text('Check deatil')
+              ),
+            ],
+          ),
+        ),
+
+
+        separatorBuilder: (BuildContext context, int index) => Divider(),
+                  itemBuilder: (BuildContext context, int index) {
+                    return CustomListItem(index: index);
+
+                    import 'package:flutter/material.dart';
+
+                    void main() {
+                      runApp(HomePage());
+                    }
+
+                    class HomePage extends StatelessWidget {
+                      @override
+                      Widget build(BuildContext context) {
+                        var arrName = ['kala','lala', 'pala', 'tala', 'sare','gama','pada','nisha'];
+                        return MaterialApp(
+                          debugShowCheckedModeBanner: false,
+                          home: Scaffold(
+                            appBar: AppBar(
+                              title: Text('Drawer App Example+ ListView'),
+                            ),
+                            body:ListView.separated(itemBuilder: (context, index) {
+                              return Text(arrName[index], style: TextStyle(fontSize: 21,fontWeight: FontWeight.w500),);
+                              },
+
+                            itemCount: arrName.length,
+                             separatorBuilder: ((context, index) {
+                               return Divider(height: 100,thickness: 2,);
+                             }),
+                            ),
+
+                            drawer: Drawer(
+                              child: ListView(
+                                padding: EdgeInsets.zero,
+                                children: <Widget>[
+                                  DrawerHeader(
+                                    decoration: BoxDecoration(
+                                      color: Colors.blue,
+                                    ),
+                                    child: Text(
+                                      'Drawer Header',
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 24,
+                                      ),
+                                    ),
+                                  ),
+                                  ListTile(
+                                    leading: Icon(Icons.settings),
+                                    title: Text('Settings'),
+                                    onTap: () {
+                                      // Add navigation or functionality here
+                                      Navigator.pop(context);
+                                    },
+                                  ),
+                                  ListTile(
+                                    leading: Icon(Icons.info),
+                                    title: Text('About'),
+                                    onTap: () {
+                                      // Add navigation or functionality here
+                                      Navigator.pop(context);
+                                    },
+                                  ),
+                                  ListTile(
+                                    leading: Icon(Icons.accessible),
+                                    title: Text('Hahaha'),
+                                    onTap: () {
+                                      // Add navigation or functionality here
+                                      Navigator.pop(context);
+                                    },
+                                  ),
+                                  ListTile(
+                                    leading: Icon(Icons.smart_button),
+                                    title: Text('Pagal'),
+                                    onTap: () {
+                                      // Add navigation or functionality here
+                                      Navigator.pop(context);
+                                    },
+                                  ),
+                                  ListTile(
+                                    leading: Icon(Icons.dark_mode),
+                                    title: Text('Theme'),
+                                    onTap: () {
+                                      // Add navigation or functionality here
+                                      Navigator.pop(context);
+                                    },
+                                  ),
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      Navigator.push(context, MaterialPageRoute(builder: (context)=> HomePage()));
+                                      // Add login logic here
+                                    },
+                                    child: Text('Blank page'),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        );
+                      }
+                    }
+
+ @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: ListTile(
+        onTap: (){
+          print('${item.name}pressed');
+        },
+        leading: Image.asset(item.image),
+        title: Text(item.name) ,
+        subtitle: Text(item.desc),
+        trailing: Text('\$${item.pirce}'),
+      ),
+    );
+  }
+
+  import 'package:untitled3/models/catalog.dart';
+  CatalogModel
+
+  class CatalogModel {
+    int? id;
+    String? name;
+    String? desc;
+    int? price;
+    String? color;
+    String? image;
+
+    CatalogModel(
+        {this.id, this.name, this.desc, this.price, this.color, this.image});
+
+    CatalogModel.fromJson(Map<String, dynamic> json) {
+      id = json['id'];
+      name = json['name'];
+      desc = json['desc'];
+      price = json['price'];
+      color = json['color'];
+      image = json['image'];
+    }
+
+    Map<String, dynamic> toJson() {
+      final Map<String, dynamic> Item = new Map<String, dynamic>();
+      Item['id'] = this.id;
+      Item['name'] = this.name;
+      Item['desc'] = this.desc;
+      Item['price'] = this.price;
+      Item['color'] = this.color;
+      Item['image'] = this.image;
+      return Item;
+    }
+  }

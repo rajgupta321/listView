@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 15 Pro",
+      "desc": "Apple iPhone 15th generation",
+      "price": 99999,
+      "color": "#33505",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S22",
+      "desc": "Samsung flagship phone",
+      "price": 89999,
+      "color": "#009688",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 3,
+      "name": "Google Pixel 7",
+      "desc": "Google's latest Pixel phone",
+      "price": 79999,
+      "color": "#FF5722",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 4,
+      "name": "OnePlus 10 Pro",
+      "desc": "OnePlus flagship phone",
+      "price": 89999,
+      "color": "#8E24AA",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 5,
+      "name": "Xiaomi Mi 12",
+      "desc": "Xiaomi's latest flagship",
+      "price": 75999,
+      "color": "#FFC107",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 6,
+      "name": "Sony Xperia 1 III",
+      "desc": "Sony's flagship Xperia phone",
+      "price": 84999,
+      "color": "#03A9F4",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 7,
+      "name": "LG V70 ThinQ",
+      "desc": "LG's premium phone",
+      "price": 78999,
+      "color": "#FF9800",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 8,
+      "name": "Nokia 10",
+      "desc": "Nokia's flagship model",
+      "price": 69999,
+      "color": "#607D8B",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 9,
+      "name": "Motorola Edge 30",
+      "desc": "Motorola's latest edge-to-edge phone",
+      "price": 81999,
+      "color": "#673AB7",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 10,
+      "name": "Huawei P50 Pro",
+      "desc": "Huawei's flagship with powerful camera",
+      "price": 89999,
+      "color": "#FFEB3B",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 11,
+      "name": "Asus ROG Phone 6",
+      "desc": "Gaming phone by Asus",
+      "price": 89999,
+      "color": "#9C27B0",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 12,
+      "name": "BlackBerry Key4",
+      "desc": "Modern BlackBerry with a physical keyboard",
+      "price": 74999,
+      "color": "#009688",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 13,
+      "name": "Lenovo Legion Phone 3",
+      "desc": "Gaming phone by Lenovo",
+      "price": 79999,
+      "color": "#FF5722",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 14,
+      "name": "Oppo Find X5 Pro",
+      "desc": "Flagship phone by Oppo",
+      "price": 85999,
+      "color": "#8E24AA",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 15,
+      "name": "Vivo Nex 5",
+      "desc": "Vivo's latest bezel-less phone",
+      "price": 74999,
+      "color": "#03A9F4",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 16,
+      "name": "Realme GT Neo 3",
+      "desc": "Budget-friendly powerhouse",
+      "price": 59999,
+      "color": "#FFC107",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 17,
+      "name": "ZTE Axon 40 Pro",
+      "desc": "ZTE's premium offering",
+      "price": 78999,
+      "color": "#FF9800",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 18,
+      "name": "Infinix Zero 10",
+      "desc": "Feature-packed mid-range phone",
+      "price": 54999,
+      "color": "#607D8B",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 19,
+      "name": "Meizu 19 Pro",
+      "desc": "Meizu's flagship smartphone",
+      "price": 79999,
+      "color": "#673AB7",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    },
+    {
+      "id": 20,
+      "name": "Nubia Red Magic 7",
+      "desc": "Gaming phone by Nubia",
+      "price": 84999,
+      "color": "#FFEB3B",
+      "image": "assets/images/sketch1642078613345 (2).png"
+    }
+  ]
+}
